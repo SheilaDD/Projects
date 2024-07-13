@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <style>
+      body {
+        text-align: centre;
+      }
+      h1 {
+        margin: 2px;
+        padding: 0;
+      }
+      li {
+        padding: 0px;
+        list-style: none;
+        margin-top: 0px;
+      }
+      ul {
+        text-align: center;
+        padding: 0px;
+      }
+      .weather:hover {
+        text-align: center;
+        transition: all 200ms ease-in-out;
+      }
+      .head {
+        font-weight: lighter;
+      }
+      .heading {
+        color: rgb(97, 97, 240);
+        font-family: sans-serif;
+      }
+      .button {
+        border-radius: 28px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(53, 53, 183);
+        border: 1px solid rgb(53, 53, 183);
+        width: 110px;
+        margin: 0 auto 30px;
+        padding: 11px 10px 11px 10px;
+        transition: all 200ms ease-in-out;
+        cursor: pointer;
+      }
+      .button:hover {
+        color: rgb(246, 243, 243);
+        background-color: rgb(165, 42, 42);
+        cursor: pointer;
+      }
+      .btn {
+        color: black;
+        border-radius: 3px;
+        border: none;
+        cursor: pointer;
+        margin: 0;
+        background-color: white;
+        width: 300px;
+        height: 80px;
+      }
+      .btn-heading {
+        width: 420;
+        height: 130px;
+        background-color: white;
+        cursor: pointer;
+        border: none;
+        margin: 0;
+        border-radius: 3px;
+      }
+      .btn:hover {
+        background-color: rgb(244, 232, 216);
+        cursor: pointer;
+      }
+      .btn-heading:hover {
+        background-color: rgb(244, 232, 216) ``````````````````;
+        cursor: pointer;
+      }
+      .coded {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: small;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="weather">
+      <ul>
+        <button class="btn-heading">
+          <h1>
+            🌤️
+            <div class="heading">Currently 21&deg; in Tokyo</div>
+            <span class="head">13&deg;</span> / 23&deg;
+          </h1>
+        </button>
+        <li>
+          <button class="btn">
+            <strong>🌧️ Tomorrow </strong> <br />
+            10&deg; / <strong>22&deg;</strong>
+          </button>
+        </li>
+        <li>
+          <button class="btn">
+            <strong>⛅ Saturday</strong> <br />
+            15&deg; / <strong>17&deg;</strong>
+          </button>
+        </li>
+        <li>
+          <button class="btn">
+            <strong> 🌞 Sunday </strong> <br />
+            25&deg; / <strong>28&deg;</strong>
+          </button>
+        </li>
+        <br />
+        <button class="button">Change city</button>
+        <br />
+        <div class="coded">Coded by Sheila Dzhivhuho</div>
+      </ul>
+    </div>
+  </body>
+</html>
